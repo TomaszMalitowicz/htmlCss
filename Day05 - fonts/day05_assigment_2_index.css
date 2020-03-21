@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+
+html {
+  font-family: roboto, sans-serif;
+}
+
+p {
+  margin: 0 auto;
+  width: 500px;
+  font-size: 1.5em;
+}
+
+
+
+p.italic {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: yellow;
+  background-color: black;
+  text-align: justify;
+}
+
+.italic:hover {
+  background-color: gray;
+  color: green;
+  text-decoration: underline;
+  line-height: 200%;
+}
+
+p + p + p {
+  font-style: italic;
+  text-align: center;
+}

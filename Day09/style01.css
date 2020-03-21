@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 120vh;
+}
+
+nav {
+  background-color: black;
+  /*  overflow: hidden;*/
+}
+
+nav div.logo {
+  width: 20%;
+  padding-right: 10%;
+  height: 40px;
+  background-color: bisque;
+  float: left;
+}
+
+nav ul {
+  width: 70%;
+  height: 40px;
+  background-color: dodgerblue;
+  float: left;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  width: 25%;
+}
+
+nav ul li a {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: arial;
+  line-height: 40px;
+  transition: 0.3s;
+}
+
+
+nav ul li a:hover {
+  font-size: 26px;
+}

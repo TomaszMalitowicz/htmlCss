@@ -1,0 +1,15 @@
+html {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: blue;
+  border: 8px solid red;
+  background-color: #bbb;
+}
+
+p.red {
+  color: red;
+}
+
+p + p {
+  font-weight: normal;
+}
